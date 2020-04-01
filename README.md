@@ -6,5 +6,4 @@ Add it in your source directory and include the file
 eg: #include "simplenfl.h"
 
 # Usage
-
-See the Docs Folder
+See the Wiki
