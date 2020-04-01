@@ -14,6 +14,12 @@ void loadfont(const char* file, const char* fontname, int width, int height, int
     NF_CreateTextLayer(screen, layer, rot, fontname);
 }
 
+void loadbg(const char* dir, const char* name, int width, int height, int screen, layer);
+
+void loadbg(const char* dir, const char* name, int width, int height, int screen, layer){
+    NF_LoadTiledBg(dir, name, width, height);
+    NF_CreateTiledBg(screen, layer, name);
+}
 void playandloadsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart);
 
 void playandloadsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart){
