@@ -17,9 +17,9 @@ void loadfont(const char* file, const char* fontname, int width, int height, int
     NF_CreateTextLayer(screen, layer, rot, fontname);
 }
 
-void playsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart);
+void playandloadsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart);
 
-void playsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart){
+void playandloadsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart){
     NF_LoadRawSound(file, channel, freq, sampleform);
     NF_PlayRawSound(channel, vol, pan, loop, loopstart)
 }
