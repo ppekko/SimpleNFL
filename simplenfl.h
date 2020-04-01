@@ -1,3 +1,5 @@
+\\ By Pipewarp
+
 void loadsprite(int screen, int ramslot, int vramslot, int width, int height, const char* dir, const char* dir2, bool transflag);
 
 void loadsprite(int screen, int ramslot, int vramslot, int width, int height, const char* dir, const char* dir2, bool transflag){
