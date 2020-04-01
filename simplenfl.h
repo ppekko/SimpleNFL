@@ -14,9 +14,9 @@ void loadfont(const char* file, const char* fontname, int width, int height, int
     NF_CreateTextLayer(screen, layer, rot, fontname);
 }
 
-void loadbg(const char* dir, const char* name, int width, int height, int screen, layer);
+void loadbg(const char* dir, const char* name, int width, int height, int screen, int layer);
 
-void loadbg(const char* dir, const char* name, int width, int height, int screen, layer){
+void loadbg(const char* dir, const char* name, int width, int height, int screen, int layer){
     NF_LoadTiledBg(dir, name, width, height);
     NF_CreateTiledBg(screen, layer, name);
 }
