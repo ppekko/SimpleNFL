@@ -26,5 +26,5 @@ void playandloadsound(const char* file, int channel, int freq, int sampleform, i
 
 void playandloadsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart){
     NF_LoadRawSound(file, channel, freq, sampleform);
-    NF_PlayRawSound(channel, vol, pan, loop, loopstart)
+    NF_PlayRawSound(channel, vol, pan, loop, loopstart);
 }
