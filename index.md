@@ -1,1 +1,1 @@
-<center>Centered text</center>
+# SimpleNFL {style=text-align:center}
