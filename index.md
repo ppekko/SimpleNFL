@@ -1,1 +1,1 @@
-# Test
+<center>Centered text</center>
