@@ -1,4 +1,15 @@
-//By Pipewarp
+//SimpleNFL
+//By Pipewarp and PolyMars
+//
+//https://github.com/PipeWarp/SimpleNFL/
+//
+//Licensed under Creative Commons Attribution-NonCommercial 3.0
+//Read it here: https://github.com/PipeWarp/SimpleNFL/blob/master/LICENSE
+//
+//The Docs/wiki is in the github repository
+
+
+
 
 void loadsprite(int screen, int ramslot, int vramslot, int width, int height, const char* dir, const char* dir2, bool transflag);
 
@@ -27,4 +38,20 @@ void playandloadsound(const char* file, int channel, int freq, int sampleform, i
 void playandloadsound(const char* file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart){
     NF_LoadRawSound(file, channel, freq, sampleform);
     NF_PlayRawSound(channel, vol, pan, loop, loopstart);
+}
+
+touchPosition Stylus;
+bool isTouched(int x, int y, int width, int height);
+
+bool isTouched(int x, int y, int width, int height){
+    scanKeys();// Scan for Input
+touchRead(&Stylus);// Read Stylus data
+
+
+if(KEY_TOUCH & keysDown()){
+    int mathx = x + width;
+    int mathy = y + height;
+    return Stylus.px > x && Stylus.px < mathx && Stylus.py > y && Stylus.py < mathy;
+
+}
 }
