@@ -1,5 +1,5 @@
 # SimpleNFL
-.h file that simplifies using Night Fox Lib.
+.h file that simplifies Night Fox Lib.
 
 # Installation
 Download simplenfl.h
