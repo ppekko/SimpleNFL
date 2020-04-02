@@ -41,9 +41,9 @@ void playandloadsound(const char* file, int channel, int freq, int sampleform, i
 }
 
 touchPosition Stylus;
-bool isTouched(int x, int y, int width, int height);
+bool istouched(int x, int y, int width, int height);
 
-bool isTouched(int x, int y, int width, int height){
+bool istouched(int x, int y, int width, int height){
     scanKeys();// Scan for Input
 touchRead(&Stylus);// Read Stylus data
 
