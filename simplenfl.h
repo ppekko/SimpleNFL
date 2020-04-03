@@ -1,4 +1,4 @@
-//SimpleNFL - Version 1.30
+//SimpleNFL - Version 1.31
 //By Pipewarp and PolyMars
 //
 //https://github.com/PipeWarp/SimpleNFL/
@@ -56,6 +56,7 @@ if(KEY_TOUCH & keysDown()){
 }
 }
 
+bool ispressed(const char* button, const char* type);
 
 bool ispressed(const char* button, const char* type){
     scanKeys();
@@ -316,8 +317,8 @@ bool ispressed(const char* button, const char* type){
                 }else{
                     return false;
                 }
-            }else if(SELECT == "release"){
-                if(KEY_A & Released){
+            }else if(type == "release"){
+                if(KEY_SELECT & Released){
                     return true;
                 }else{
                     return false;
