@@ -1,4 +1,4 @@
-//SimpleNFL - Version 1.20
+//SimpleNFL - Version 1.30
 //By Pipewarp and PolyMars
 //
 //https://github.com/PipeWarp/SimpleNFL/
@@ -55,3 +55,280 @@ if(KEY_TOUCH & keysDown()){
 
 }
 }
+
+
+bool ispressed(const char* button, const char* type){
+    scanKeys();
+    Pressed = keysDown();
+    Held = keysHeld();
+    Released = keysUp();
+    if(button == "A"){
+            if(type == "press"){
+                if(KEY_A & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_A & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_A & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+    }else if(button == "B"){
+        if(type == "press"){
+                if(KEY_B & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_B & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_B & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "Y"){
+        if(type == "press"){
+                if(KEY_Y & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_Y & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_Y & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "X"){
+        if(type == "press"){
+                if(KEY_X & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_X & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_X & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "UP"){
+        if(type == "press"){
+                if(KEY_UP & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_UP & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_UP & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "DOWN"){
+        if(type == "press"){
+                if(KEY_DOWN & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_DOWN & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_DOWN & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "LEFT"){
+        if(type == "press"){
+                if(KEY_LEFT & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_LEFT & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_LEFT & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "RIGHT"){
+        if(type == "press"){
+                if(KEY_RIGHT & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_RIGHT & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_RIGHT & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "R"){
+        if(type == "press"){
+                if(KEY_R & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_R & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_R & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "L"){
+        if(type == "press"){
+                if(KEY_L & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_L & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_L & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "START"){
+        if(type == "press"){
+                if(KEY_START & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_START & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "release"){
+                if(KEY_START & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }else if(button == "SELECT"){
+        if(type == "press"){
+                if(KEY_SELECT & Pressed){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(type == "held"){
+                if(KEY_SELECT & Held){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(SELECT == "release"){
+                if(KEY_A & Released){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+
+    }
+}
+
+
+
+
+
