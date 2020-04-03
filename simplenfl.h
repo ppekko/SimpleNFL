@@ -1,4 +1,4 @@
-//SimpleNFL
+//SimpleNFL - Version 1.20
 //By Pipewarp and PolyMars
 //
 //https://github.com/PipeWarp/SimpleNFL/
