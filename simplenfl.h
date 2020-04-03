@@ -9,7 +9,10 @@
 //The Docs/wiki is in the github repository
 
 
-
+u16 Pressed;
+u16 Held;
+u16 Released;
+touchPosition Stylus;
 
 void loadsprite(int screen, int ramslot, int vramslot, int width, int height, const char* dir, const char* dir2, bool transflag);
 
@@ -40,7 +43,7 @@ void playandloadsound(const char* file, int channel, int freq, int sampleform, i
     NF_PlayRawSound(channel, vol, pan, loop, loopstart);
 }
 
-touchPosition Stylus;
+
 bool istouched(int x, int y, int width, int height);
 
 bool istouched(int x, int y, int width, int height){
