@@ -1,4 +1,4 @@
-//SimpleNFL - Version 1.35
+//SimpleNFL - Version 1.60
 //By Pipewarp and PolyMars
 //
 //https://github.com/PipeWarp/SimpleNFL/
@@ -79,6 +79,7 @@ bool istouched(int x, int y, int width, int height) {
         int mathy = y + height;
         return Stylus.px > x && Stylus.px < mathx && Stylus.py > y && Stylus.py < mathy;
     }
+    return false;
 
 }
 
@@ -353,4 +354,17 @@ bool ispressed(const char *button, const char *type) {return false;
         }
 
     }
+    return false;
+}
+
+bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4);
+
+bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4) {
+    if ((x3 <= x1 && x1 <= x4 && y3 <= y1 && y1 <= y4) ||
+        (x3 <= x1 && x1 <= x4 && y3 <= y2 && y2 <= y4) ||
+        (x3 <= x2 && x2 <= x4 && y3 <= y1 && y1 <= y4) ||
+        (x3 <= x2 && x2 <= x4 && y3 <= y2 && y2 <= y4)) {
+        return true;
+    }
+    return false;
 }
