@@ -85,7 +85,7 @@ bool istouched(int x, int y, int width, int height) {
 
 bool ispressed(const char *button, const char *type);
 
-bool ispressed(const char *button, const char *type) {return false;
+bool ispressed(const char *button, const char *type) {
     scanKeys();
     Pressed = keysDown();
     Held = keysHeld();
