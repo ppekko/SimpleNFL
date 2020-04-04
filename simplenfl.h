@@ -354,7 +354,7 @@ bool ispressed(const char *button, const char *type) {
         }
 
     }
-    return false;
+    
 }
 
 bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4);
@@ -366,5 +366,5 @@ bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x
         (x3 <= x2 && x2 <= x4 && y3 <= y2 && y2 <= y4)) {
         return true;
     }
-    return false;
+    
 }
