@@ -9,5 +9,5 @@ eg: #include "simplenfl.h"
 
 Remeber that this is liscensed, so remember to give credit for free use!
 
-# Usage
-See the Wiki
+# Documentation
+Look in the wiki (https://github.com/PipeWarp/SimpleNFL/wiki)
