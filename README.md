@@ -1,7 +1,3 @@
-# ANOTHER WARNING
-Somehow i messed up case()
-I am fixing it!
-
 # SimpleNFL
 A .h that simplifies the usage of NightFoxLib.
 Putting a sprite on the screen used to take 4 lines of code, it now only takes 1.
