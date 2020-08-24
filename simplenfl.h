@@ -1,6 +1,6 @@
 //SimpleNFL - Version 1.65
 //By Pipewarp 
-//With Help from PolyMars and SkilLP
+//With Help from PolyMars,ngawung and SkilLP
 //https://github.com/PipeWarp/SimpleNFL/
 //
 //Licensed under Creative Commons Attribution-NonCommercial 3.0
