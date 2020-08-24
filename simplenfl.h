@@ -1,6 +1,6 @@
 //SimpleNFL - Version 1.65
 //By Pipewarp 
-//With Help from PolyMars,ngawung and SkilLP
+//With Help from PolyMars and SkilLP
 //https://github.com/PipeWarp/SimpleNFL/
 //
 //Licensed under Creative Commons Attribution-NonCommercial 3.0
@@ -32,6 +32,18 @@ void loadsprite(int screen, int ramslot, int vramslot, int width, int height, co
     NF_LoadSpritePal(dir2, ramslot);
     NF_VramSpriteGfx(screen, ramslot, vramslot, transflag);
     NF_VramSpritePal(screen, ramslot, vramslot);
+}
+
+// unload gfx and sprite in ram and vram
+void unloadsprite(int screen, int ramslot, int vramslot);
+
+void unloadsprite(int screen, int ramslot, int vramslot) {
+    // ram
+    NF_UnloadSpriteGfx(ramslot);
+    NF_UnloadSpritePal(ramslot);
+
+    // vram
+    NF_FreeSpriteGfx(screen, vramslot);
 }
 
 void loadfont(const char *file, const char *fontname, int width, int height, int rot, int screen, int layer);
