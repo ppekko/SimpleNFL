@@ -108,6 +108,16 @@ bool getTouchRect(int x, int y, int width, int height, KeyPhase phase) {
     return false;
 }
 
+bool getTouchCircle(int x, int y, int radius, KeyPhase phase);
+
+bool getTouchCircle(int x, int y, int radius, KeyPhase phase) {
+    if (getTouch(phase)) {
+        return ((Stylus.px - x) * (Stylus.px - x)) + ((Stylus.py - y) * (Stylus.py - y)) < radius * radius;
+    }
+    return false;
+}
+
+
 bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4);
 
 bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4) {
