@@ -20,8 +20,14 @@ enum Key {
 
 enum KeyPhase { release, press, held };
 
+enum Swipe { SwipeRight, SwipeLeft, SwipeUp, SwipeDown };
+
 touchPosition Stylus;
 touchPosition PrevStylus; // previous frame stylus position
+
+// store stylus position for swipe gesture
+int startX;
+int startY;
 
 void loadsprite(int screen, int ramslot, int vramslot, int width, int height, const char *dir, const char *dir2,
                 bool transflag);
@@ -117,6 +123,46 @@ bool getTouchCircle(int x, int y, int radius, KeyPhase phase) {
     return false;
 }
 
+// get simple swipe gesture
+bool getSwipeGesture(Swipe gesture);
+
+bool getSwipeGesture(Swipe gesture) {
+    if (getTouch(KeyPhase::press)) {
+        startX = Stylus.px;
+        startY = Stylus.py;
+    }
+
+    if (getTouch(KeyPhase::release)) {
+        int currentX = Stylus.px;
+        int currentY = Stylus.py;
+        
+        int diffX = startX - currentX;
+        int diffY = startY - currentY;
+
+        // get absolute without math lib
+        int absX = diffX * ((diffX > 0) - (diffX < 0));
+        int absY = diffY * ((diffY > 0) - (diffY < 0));
+        
+        bool result = absX > absY;
+
+        switch (gesture) {
+            case Swipe::SwipeLeft:
+                if(result && diffX > 0) return true;
+                break;
+            case Swipe::SwipeRight:
+                if(result && diffX < 0) return true;
+                break;
+            case Swipe::SwipeUp:
+                if(!result && diffY > 0) return true;
+                break;
+            case Swipe::SwipeDown:
+                if(!result && diffY < 0) return true;
+                break;
+        }
+    }
+
+    return false;
+}
 
 bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4);
 
