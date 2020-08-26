@@ -29,6 +29,7 @@ touchPosition PrevStylus; // previous frame stylus position
 int startX;
 int startY;
 
+// quick load gfx and pallete to ram and vram
 void loadsprite(int screen, int ramslot, int vramslot, int width, int height, const char *dir, const char *dir2,
                 bool transflag);
 
@@ -40,7 +41,17 @@ void loadsprite(int screen, int ramslot, int vramslot, int width, int height, co
     NF_VramSpritePal(screen, ramslot, vramslot);
 }
 
-// unload gfx and sprite in ram and vram
+// quick load gfx and pallete to ram and vram3D
+void loadsprite3D(int ramslot, int vramslot, int width, int height, const char *dir, const char *dir2, bool transflag);
+
+void loadsprite3D(int ramslot, int vramslot, int width, int height, const char *dir, const char *dir2, bool transflag) {
+    NF_LoadSpriteGfx(dir, ramslot, width, height);
+    NF_LoadSpritePal(dir2, ramslot);
+    NF_Vram3dSpriteGfx(ramslot, vramslot, transflag);
+    NF_Vram3dSpritePal(ramslot, vramslot);
+}
+
+// unload gfx and pallete in ram and vram
 void unloadsprite(int screen, int ramslot, int vramslot);
 
 void unloadsprite(int screen, int ramslot, int vramslot) {
@@ -52,6 +63,19 @@ void unloadsprite(int screen, int ramslot, int vramslot) {
     NF_FreeSpriteGfx(screen, vramslot);
 }
 
+// unload gfx and pallete in ram and vram3D
+void unloadsprite3D(int ramslot, int vramslot);
+
+void unloadsprite3D(int ramslot, int vramslot) {
+    // ram
+    NF_UnloadSpriteGfx(ramslot);
+    NF_UnloadSpritePal(ramslot);
+
+    // vram3D
+    NF_Free3dSpriteGfx(vramslot);
+}
+
+// quick load font and create font layer
 void loadfont(const char *file, const char *fontname, int width, int height, int rot, int screen, int layer);
 
 void loadfont(const char *file, const char *fontname, int width, int height, int rot, int screen, int layer) {
@@ -59,6 +83,7 @@ void loadfont(const char *file, const char *fontname, int width, int height, int
     NF_CreateTextLayer(screen, layer, rot, fontname);
 }
 
+// quick load and create tiled background
 void loadbg(const char *dir, const char *name, int width, int height, int screen, int layer);
 
 void loadbg(const char *dir, const char *name, int width, int height, int screen, int layer) {
@@ -66,6 +91,15 @@ void loadbg(const char *dir, const char *name, int width, int height, int screen
     NF_CreateTiledBg(screen, layer, name);
 }
 
+// quick unload and remove tiled background
+void unloadbg(int screen, int layer, const char *name);
+
+void unloadbg(int screen, int layer, const char *name) {
+    NF_DeleteTiledBg(screen, layer);
+    NF_UnloadTiledBg(name);
+}
+
+// quick load and play raw sound
 void
 playandloadsound(const char *file, int channel, int freq, int sampleform, int vol, int pan, bool loop, int loopstart);
 
@@ -75,6 +109,7 @@ playandloadsound(const char *file, int channel, int freq, int sampleform, int vo
     NF_PlayRawSound(channel, vol, pan, loop, loopstart);
 }
 
+// get touch input
 bool getTouch(KeyPhase phase);
 
 bool getTouch(KeyPhase phase) {
@@ -103,6 +138,7 @@ bool getTouch(KeyPhase phase) {
     return false;
 }
 
+// get touch input inside rectangle
 bool getTouchRect(int x, int y, int width, int height, KeyPhase phase);
 
 bool getTouchRect(int x, int y, int width, int height, KeyPhase phase) {
@@ -114,6 +150,7 @@ bool getTouchRect(int x, int y, int width, int height, KeyPhase phase) {
     return false;
 }
 
+// get touch input inside circle
 bool getTouchCircle(int x, int y, int radius, KeyPhase phase);
 
 bool getTouchCircle(int x, int y, int radius, KeyPhase phase) {
@@ -164,6 +201,7 @@ bool getSwipeGesture(Swipe gesture) {
     return false;
 }
 
+// check overlap of two rectangle
 bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4);
 
 bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4) {
@@ -177,6 +215,7 @@ bool overlap(float x1, float y1, float x2, float y2, float x3, float y3, float x
     return false;
 }
 
+// get button input
 bool getKeys(Key key, KeyPhase phase);
 
 bool getKeys(Key key, KeyPhase phase) {
