@@ -1,4 +1,4 @@
-[logo](https://raw.githubusercontent.com/PipeWarp/SimpleNFL/master/Artboard.png)
+![logo](https://raw.githubusercontent.com/PipeWarp/SimpleNFL/master/Artboard.png)
 
 # SimpleNFL
 A .h that simplifies the usage of NightFoxLib.
