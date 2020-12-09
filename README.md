@@ -6,7 +6,7 @@ Putting a sprite on the screen used to take 4 lines of code, it now only takes 1
 There are also new functions included, like easy touch detection and button presses.
 
 # Installation
-Download simplenfl.h
+Download simplenfl.h ![here]https://github.com/PipeWarp/SimpleNFL/blob/master/include/simplenfl.h
 
 Add it in your source directory (main.c or .cpp) and include the file
 eg: #include "simplenfl.h"
