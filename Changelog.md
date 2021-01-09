@@ -1,9 +1,11 @@
-1.60: Added SkilLP Overlap Command
+# Changelog
 
-1.30 and 1.50: Added button detection and fixed the button input warnings
+1.7: A lot of code got cleaned up thanks to KonPet
 
+1.6: Added KonPet's Overlap function
 
-1.20: Added the istouch function with help from PolyMars
+1.3 and 1.5: Added button detection and fixed the button input warnings
 
+1.2: Added the istouch function with help from PolyMars
 
-1.00: Initial Realese
+1.0: Initial Realese
