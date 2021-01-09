@@ -12,6 +12,7 @@
 #pragma once
 
 #include <nds.h>
+#include "nf_lib.h"
 
 #ifdef __cplusplus
 namespace SNF {
