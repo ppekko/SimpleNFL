@@ -95,21 +95,21 @@ bool getTouch(KeyPhase phase) {
     switch (phase){
         case KeyPhase::release:
             // store prev stylus because px,py return 0 when KeysUp()
-            if (keysHeld() & KEY_TOUCH) PrevStylus = Stylus;
+            if (keysHeld() & KEY_TOUCH) {
+		    PrevStylus = Stylus;
+	    }
 
             if (keysUp() & KEY_TOUCH) {
                 Stylus = PrevStylus;
                 return true;
             }
-            else break;
+	    break;
         
         case KeyPhase::press:
             return (keysDown() & KEY_TOUCH);
-            break;
 
         case KeyPhase::held:
             return (keysHeld() & KEY_TOUCH);
-            break;
     }
 
     return false;
@@ -127,7 +127,9 @@ bool getTouchRect(int x, int y, int width, int height, KeyPhase phase) {
 
 // get touch input inside circle
 bool getTouchCircle(int x, int y, int radius, KeyPhase phase) {
-    if (getTouch(phase)) return ((Stylus.px - x) * (Stylus.px - x)) + ((Stylus.py - y) * (Stylus.py - y)) < radius * radius;
+    if (getTouch(phase)) {
+	    return ((Stylus.px - x) * (Stylus.px - x)) + ((Stylus.py - y) * (Stylus.py - y)) < radius * radius;
+    }
     return false;
 }
 
@@ -175,7 +177,7 @@ bool overlap(int x1, int y1, int w1, int h1, int x2, int y2, int w2, int h2) {
 }
 
 // get button input
-bool getKeys(short key, KeyPhase phase) {
+bool getKeys(KEYPAD_BITS key, KeyPhase phase) {
     switch (phase) {
         case KeyPhase::release:
             return (keysUp() & key);
