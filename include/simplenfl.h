@@ -121,7 +121,7 @@ bool getTouchRect(int x, int y, int width, int height, KeyPhase phase) {
     if (getTouch(phase)) {
         int mathx = x + width - 1;
         int mathy = y + height - 1;
-        return Stylus.px => x && Stylus.px <= mathx && Stylus.py >= y && Stylus.py <= mathy;
+        return Stylus.px >= x && Stylus.px <= mathx && Stylus.py >= y && Stylus.py <= mathy;
     }
     return false;
 }
@@ -174,7 +174,7 @@ bool overlap(int x1, int y1, int w1, int h1, int x2, int y2, int w2, int h2) {
     return ((x1 		 >= x2 && x1 		  <= x2 + w2 - 1 && y1 			>= y2 && y1 		 <= y2 + h2 - 1) ||
     	    (x1 + w1 - 1 >= x2 && x1 + w1 - 1 <= x2 + w2 - 1 && y1 			>= y2 && y1 		 <= y2 + h2 - 1) ||
     	    (x1			 >= x2 && x1 		  <= x2 + w2 - 1 && y1 + h1 - 1 >= y2 && y1 + h1 - 1 <= y2 + h2 - 1) ||
-    	    (x1 + w1 - 1 >= x2 && x1 + w1 - 1 <= x2 + w2 - 1 && y1 + h1 - 1 >= y2 && y1 + h1 - 1 <= y2 + h2 - 1))
+    	    (x1 + w1 - 1 >= x2 && x1 + w1 - 1 <= x2 + w2 - 1 && y1 + h1 - 1 >= y2 && y1 + h1 - 1 <= y2 + h2 - 1));
 }
 
 // get button input
