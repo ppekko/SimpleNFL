@@ -1,8 +1,8 @@
 ![logo](./brand/banner.png)
 
 # SimpleNFL
-A .h that simplifies the usage of NightFoxLib.
-Putting a sprite on the screen used to take 4 lines of code, it now only takes 1.
+A C++ header-only wrapper for NightFoxLib.
+Putting a sprite on the screen used to take four lines of code, it now only takes one.
 There are also ease-of-use functions included, like easy touch detection and button presses.
 
 <p align="center">
@@ -10,15 +10,11 @@ There are also ease-of-use functions included, like easy touch detection and but
 </p>
 
 # Installation
-Download simplenfl.h ![here](https://github.com/PipeWarp/SimpleNFL/blob/master/include/simplenfl.h)
+Download ```simplenfl.h``` ![here](https://github.com/PipeWarp/SimpleNFL/blob/master/include/simplenfl.h)
 
-Add it in your source directory (main.c or .cpp) and include the file
-eg: #include "simplenfl.h"
+Simply include it in your project to begin using it.
 
-Remeber that this is liscensed, so remember to give credit for free use!
-
-# Documentation
-Look in the wiki (https://github.com/PipeWarp/SimpleNFL/wiki)
+# [Documentation is located here.](https://github.com/PipeWarp/SimpleNFL/wiki)
 
 # Credits
 
