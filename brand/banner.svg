@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="150mm"
+   viewBox="0 0 500 150"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="banner.svg"
+   inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/IPTB/Yellow-Water/logo-assets/banner.png"
+   inkscape:export-xdpi="180.00133"
+   inkscape:export-ydpi="180.00133"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="709"
+     inkscape:cy="576"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="1360"
+     inkscape:window-y="41"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient69320">
+      <stop
+         style="stop-color:#046500;stop-opacity:1"
+         offset="0"
+         id="stop69314" />
+      <stop
+         style="stop-color:#00ca11;stop-opacity:1"
+         offset="0.51098591"
+         id="stop69316" />
+      <stop
+         style="stop-color:#bcff00;stop-opacity:1"
+         offset="1"
+         id="stop69318" />
+    </linearGradient>
+    <rect
+       x="427.66284"
+       y="71.694397"
+       width="1595.031"
+       height="318.39966"
+       id="rect9142" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1106">
+      <stop
+         style="stop-color:#046800;stop-opacity:1"
+         offset="0"
+         id="stop1102" />
+      <stop
+         style="stop-color:#36d90c;stop-opacity:1"
+         offset="0.51098591"
+         id="stop33073" />
+      <stop
+         style="stop-color:#bcff00;stop-opacity:1"
+         offset="1"
+         id="stop1104" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient69320"
+       id="linearGradient1108"
+       x1="99.580048"
+       y1="249.07014"
+       x2="363.80228"
+       y2="18.083845"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="427.66284"
+       y="71.694397"
+       width="1730.0344"
+       height="363.35816"
+       id="rect9142-0" />
+    <rect
+       x="427.66284"
+       y="71.694397"
+       width="1595.031"
+       height="318.39966"
+       id="rect9142-4" />
+    <rect
+       x="427.66284"
+       y="71.694397"
+       width="1743.4216"
+       height="292.81152"
+       id="rect9142-4-0" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1106"
+       id="linearGradient1108-3"
+       x1="-1.5765434e-07"
+       y1="300"
+       x2="137.51123"
+       y2="195.81618"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(5.1644445e-6)" />
+    <rect
+       x="427.66284"
+       y="71.694397"
+       width="1260.5336"
+       height="490.4878"
+       id="rect9142-5" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient1108);fill-opacity:1;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
+       id="rect846"
+       width="496.29584"
+       height="146.29584"
+       x="1.852085"
+       y="1.852085"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-xdpi="108.37333"
+       inkscape:export-ydpi="108.37333" />
+    <rect
+       style="fill:url(#linearGradient1108-3);fill-opacity:1;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
+       id="rect846-3"
+       width="96.295998"
+       height="96.295837"
+       x="1.852085"
+       y="201.85208"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/icon.png"
+       inkscape:export-xdpi="180.00133"
+       inkscape:export-ydpi="180.00133" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-93.152265,-15.133021)"
+       id="text9140"
+       style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-xdpi="108.37333"
+       inkscape:export-ydpi="108.37333"><tspan
+         x="427.66211"
+         y="252.78622"
+         id="tspan89698"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
+           id="tspan89696">Simple-NFL</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-93.152265,190.62532)"
+       id="text9140-6"
+       style="font-style:normal;font-weight:normal;font-size:133.333px;line-height:0.75;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142-5);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/icon.png"
+       inkscape:export-xdpi="180.00133"
+       inkscape:export-ydpi="180.00133"><tspan
+         x="427.66211"
+         y="164.11932"
+         id="tspan89702"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
+           id="tspan89700">SIM
+</tspan></tspan><tspan
+         x="427.66211"
+         y="268.23258"
+         id="tspan89706"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
+           id="tspan89704">PLE
+</tspan></tspan><tspan
+         x="427.66211"
+         y="372.34585"
+         id="tspan89710"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
+           id="tspan89708">NFL</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-93.152265,31.658143)"
+       id="text9140-7"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142-4);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-xdpi="108.37333"
+       inkscape:export-ydpi="108.37333"><tspan
+         x="427.66211"
+         y="132.05895"
+         id="tspan89714"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
+           id="tspan89712">a NightFoxLib Wrapper</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-93.152265,55.642737)"
+       id="text9140-7-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';white-space:pre;shape-inside:url(#rect9142-4-0);fill:#ffffff;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-xdpi="108.37333"
+       inkscape:export-ydpi="108.37333"><tspan
+         x="427.66211"
+         y="132.05895"
+         id="tspan89716">a header-only Wrapper for Nightfoxlib, written in </tspan><tspan
+         x="427.66211"
+         y="212.05895"
+         id="tspan89718">C++
+</tspan><tspan
+         x="427.66211"
+         y="292.05895"
+         id="tspan89720">                                       By PipeWarp </tspan></text>
+    <rect
+       style="fill:none;fill-opacity:0;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
+       id="rect846-8"
+       width="496.29584"
+       height="146.29584"
+       x="1.852085"
+       y="1.852075"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-xdpi="108.37333"
+       inkscape:export-ydpi="108.37333" />
+  </g>
+</svg>
