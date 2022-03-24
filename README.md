@@ -1,7 +1,7 @@
 ![logo](./brand/banner.png)
 
 # SimpleNFL
-A C++ header-only wrapper for NightFoxLib.
+A C and C++ header-only wrapper for NightFoxLib.
 Putting a sprite on the screen used to take four lines of code, it now only takes one.
 There are also ease-of-use functions included, like easy touch detection and button presses.
 
