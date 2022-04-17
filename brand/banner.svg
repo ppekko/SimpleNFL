@@ -7,7 +7,7 @@
    viewBox="0 0 500 150"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    sodipodi:docname="banner.svg"
    inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/IPTB/Yellow-Water/logo-assets/banner.png"
    inkscape:export-xdpi="180.00133"
@@ -27,13 +27,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="709"
-     inkscape:cy="576"
+     inkscape:zoom="0.25"
+     inkscape:cx="1430"
+     inkscape:cy="894"
      inkscape:window-width="1920"
-     inkscape:window-height="1010"
+     inkscape:window-height="1007"
      inkscape:window-x="1360"
-     inkscape:window-y="41"
+     inkscape:window-y="40"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-bbox="true"
@@ -136,7 +136,7 @@
        height="146.29584"
        x="1.852085"
        y="1.852085"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333" />
     <rect
@@ -154,14 +154,14 @@
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,-15.133021)"
        id="text9140"
        style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142);fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333"><tspan
          x="427.66211"
          y="252.78622"
-         id="tspan89698"><tspan
+         id="tspan12602"><tspan
            style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan89696">Simple-NFL</tspan></tspan></text>
+           id="tspan12600">Simple-NFL</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,190.62532)"
@@ -172,52 +172,53 @@
        inkscape:export-ydpi="180.00133"><tspan
          x="427.66211"
          y="164.11932"
-         id="tspan89702"><tspan
+         id="tspan12606"><tspan
            style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan89700">SIM
+           id="tspan12604">SIM
 </tspan></tspan><tspan
          x="427.66211"
-         y="268.23258"
-         id="tspan89706"><tspan
+         y="271.90786"
+         id="tspan12610"><tspan
            style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan89704">PLE
+           id="tspan12608">PLE
 </tspan></tspan><tspan
          x="427.66211"
-         y="372.34585"
-         id="tspan89710"><tspan
+         y="379.69641"
+         id="tspan12614"><tspan
            style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan89708">NFL</tspan></tspan></text>
+           id="tspan12612">NFL</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,31.658143)"
        id="text9140-7"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142-4);fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333"><tspan
          x="427.66211"
          y="132.05895"
-         id="tspan89714"><tspan
+         id="tspan12618"><tspan
            style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan89712">a NightFoxLib Wrapper</tspan></tspan></text>
+           id="tspan12616">a NightFoxLib Wrapper</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,55.642737)"
        id="text9140-7-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';white-space:pre;shape-inside:url(#rect9142-4-0);fill:#ffffff;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333"><tspan
          x="427.66211"
          y="132.05895"
-         id="tspan89716">a header-only Wrapper for Nightfoxlib, written in </tspan><tspan
+         id="tspan12620">a c/++ header-only Wrapper for Nightfoxlib
+</tspan><tspan
          x="427.66211"
          y="212.05895"
-         id="tspan89718">C++
+         id="tspan12622">
 </tspan><tspan
          x="427.66211"
          y="292.05895"
-         id="tspan89720">                                       By PipeWarp </tspan></text>
+         id="tspan12624">                                       By PipeWarp </tspan></text>
     <rect
        style="fill:none;fill-opacity:0;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
        id="rect846-8"
@@ -225,7 +226,7 @@
        height="146.29584"
        x="1.852085"
        y="1.852075"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333" />
   </g>
