@@ -27,12 +27,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.25"
-     inkscape:cx="1430"
-     inkscape:cy="894"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="957.42258"
+     inkscape:cy="714.17785"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
-     inkscape:window-x="1360"
+     inkscape:window-x="1920"
      inkscape:window-y="40"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
@@ -65,31 +65,6 @@
        width="1595.031"
        height="318.39966"
        id="rect9142" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1106">
-      <stop
-         style="stop-color:#046800;stop-opacity:1"
-         offset="0"
-         id="stop1102" />
-      <stop
-         style="stop-color:#36d90c;stop-opacity:1"
-         offset="0.51098591"
-         id="stop33073" />
-      <stop
-         style="stop-color:#bcff00;stop-opacity:1"
-         offset="1"
-         id="stop1104" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient69320"
-       id="linearGradient1108"
-       x1="99.580048"
-       y1="249.07014"
-       x2="363.80228"
-       y2="18.083845"
-       gradientUnits="userSpaceOnUse" />
     <rect
        x="427.66284"
        y="71.694397"
@@ -108,117 +83,125 @@
        width="1743.4216"
        height="292.81152"
        id="rect9142-4-0" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1106"
-       id="linearGradient1108-3"
-       x1="-1.5765434e-07"
-       y1="300"
-       x2="137.51123"
-       y2="195.81618"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(5.1644445e-6)" />
     <rect
        x="427.66284"
        y="71.694397"
        width="1260.5336"
        height="490.4878"
        id="rect9142-5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient69320"
+       id="linearGradient4534"
+       x1="232.6971"
+       y1="234.81627"
+       x2="660.99481"
+       y2="230.2413"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient69320"
+       id="linearGradient4752"
+       x1="-119.60246"
+       y1="192.10043"
+       x2="1483.6621"
+       y2="192.78622"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:url(#linearGradient1108);fill-opacity:1;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
+       style="fill:#202020;fill-opacity:1;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
        id="rect846"
        width="496.29584"
        height="146.29584"
        x="1.852085"
        y="1.852085"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/br2/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333" />
     <rect
-       style="fill:url(#linearGradient1108-3);fill-opacity:1;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
+       style="fill:#202020;fill-opacity:1;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
        id="rect846-3"
        width="96.295998"
        height="96.295837"
        x="1.852085"
        y="201.85208"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/icon.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/br2/SimpleNFL/brand/icon.png"
        inkscape:export-xdpi="180.00133"
        inkscape:export-ydpi="180.00133" />
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,-15.133021)"
        id="text9140"
-       style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142);fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
+       style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142);fill:url(#linearGradient4752);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/br2/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333"><tspan
          x="427.66211"
          y="252.78622"
-         id="tspan12602"><tspan
-           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan12600">Simple-NFL</tspan></tspan></text>
+         id="tspan5026"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five'"
+           id="tspan5024">Simple-NFL</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,190.62532)"
        id="text9140-6"
-       style="font-style:normal;font-weight:normal;font-size:133.333px;line-height:0.75;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142-5);fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/Watchu/VTC-Very-Terrible-Code/SimpleNFL/brand/icon.png"
+       style="font-style:normal;font-weight:normal;font-size:133.333px;line-height:0.75;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142-5);fill:url(#linearGradient4534);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/br2/SimpleNFL/brand/icon.png"
        inkscape:export-xdpi="180.00133"
        inkscape:export-ydpi="180.00133"><tspan
          x="427.66211"
          y="164.11932"
-         id="tspan12606"><tspan
-           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan12604">SIM
+         id="tspan5030"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five'"
+           id="tspan5028">SIM
 </tspan></tspan><tspan
          x="427.66211"
          y="271.90786"
-         id="tspan12610"><tspan
-           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan12608">PLE
+         id="tspan5034"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five'"
+           id="tspan5032">PLE
 </tspan></tspan><tspan
          x="427.66211"
          y="379.69641"
-         id="tspan12614"><tspan
-           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan12612">NFL</tspan></tspan></text>
+         id="tspan5038"><tspan
+           style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five'"
+           id="tspan5036">NFL</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,31.658143)"
        id="text9140-7"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9142-4);fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/br2/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333"><tspan
          x="427.66211"
          y="132.05895"
-         id="tspan12618"><tspan
+         id="tspan5042"><tspan
            style="font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';fill:#ffffff"
-           id="tspan12616">a NightFoxLib Wrapper</tspan></tspan></text>
+           id="tspan5040">a NightFoxLib Wrapper</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-93.152265,55.642737)"
        id="text9140-7-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'PF Arma Five';-inkscape-font-specification:'PF Arma Five';white-space:pre;shape-inside:url(#rect9142-4-0);fill:#ffffff;fill-opacity:1;stroke:none"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/br2/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333"><tspan
          x="427.66211"
          y="132.05895"
-         id="tspan12620">a c/++ header-only Wrapper for Nightfoxlib
+         id="tspan5044">a c/++ header-only Wrapper for Nightfoxlib
 </tspan><tspan
          x="427.66211"
          y="212.05895"
-         id="tspan12622">
+         id="tspan5046">
 </tspan><tspan
          x="427.66211"
          y="292.05895"
-         id="tspan12624">                                       By PipeWarp </tspan></text>
+         id="tspan5048">By kbx </tspan></text>
     <rect
        style="fill:none;fill-opacity:0;stroke:#ffffff;stroke-width:3.70416;stroke-linecap:round;paint-order:markers fill stroke"
        id="rect846-8"
@@ -226,7 +209,7 @@
        height="146.29584"
        x="1.852085"
        y="1.852075"
-       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/SimpleNFL/brand/banner.png"
+       inkscape:export-filename="/run/media/yaz/Very Cool Drive/Demo/brn/br2/SimpleNFL/brand/banner.png"
        inkscape:export-xdpi="108.37333"
        inkscape:export-ydpi="108.37333" />
   </g>
