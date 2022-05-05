@@ -1,10 +1,10 @@
 // SimpleNFL - Version 1.7
-// By Pipewarp 
+// By kbx
 // With Help from KonPet, PolyMars and ngawung
-// https://github.com/PipeWarp/SimpleNFL/
+// https://github.com/kb-x/SimpleNFL/
 // 
 // Licensed under Creative Commons Attribution-NonCommercial 3.0
-// Read it here: https://github.com/PipeWarp/SimpleNFL/blob/master/LICENSE
+// Read it here: https://github.com/kb-x/SimpleNFL/blob/master/LICENSE
 //
 // The Docs/wiki is in the github repository
 // Have fun!

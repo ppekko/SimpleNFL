@@ -18,7 +18,7 @@ Simply include it in your project to begin using it.
 
 # Credits
 
-- PipeWarp
+- kbx
 - KonPet
 - ngawung
 - PolyMars
