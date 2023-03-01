@@ -1,10 +1,10 @@
 // SimpleNFL - Version 1.7
-// By kbx
+// By pipe
 // With Help from KonPet, PolyMars and ngawung
-// https://github.com/kb-x/SimpleNFL/
+// https://github.com/ppekko/SimpleNFL/
 // 
 // Licensed under Creative Commons Attribution-NonCommercial 3.0
-// Read it here: https://github.com/kb-x/SimpleNFL/blob/master/LICENSE
+// Read it here: https://github.com/ppekko/SimpleNFL/blob/master/LICENSE
 //
 // The Docs/wiki is in the github repository
 // Have fun!
@@ -18,16 +18,16 @@
 namespace SNF {
 #endif
 
-enum KeyPhase { release, press, held };
+typedef enum { release, press, held } KeyPhase;
 
-enum Swipe { SwipeRight, SwipeLeft, SwipeUp, SwipeDown };
+typedef enum { SwipeRight, SwipeLeft, SwipeUp, SwipeDown } Swipe;
 
-touchPosition Stylus;
-touchPosition PrevStylus; // previous frame stylus position
+static touchPosition Stylus;
+static touchPosition PrevStylus; // previous frame stylus position
 
 // store stylus position for swipe gesture
-int startX;
-int startY;
+static int startX;
+static int startY;
 
 // quick load gfx and pallete to ram and vram
 void loadsprite(int screen, int ramslot, int vramslot, int width, int height, const char *dir, const char *dir2, bool transflag) {
@@ -94,7 +94,7 @@ bool getTouch(KeyPhase phase) {
     touchRead(&Stylus);
     
     switch (phase){
-        case KeyPhase::release:
+        case release:
             // store prev stylus because px,py return 0 when KeysUp()
             if (keysHeld() & KEY_TOUCH) {
 		    PrevStylus = Stylus;
@@ -106,10 +106,10 @@ bool getTouch(KeyPhase phase) {
             }
 	    break;
         
-        case KeyPhase::press:
+        case press:
             return (keysDown() & KEY_TOUCH);
 
-        case KeyPhase::held:
+        case held:
             return (keysHeld() & KEY_TOUCH);
     }
 
@@ -136,12 +136,12 @@ bool getTouchCircle(int x, int y, int radius, KeyPhase phase) {
 
 // get simple swipe gesture
 bool getSwipeGesture(Swipe gesture) {
-    if (getTouch(KeyPhase::press)) {
+    if (getTouch(press)) {
         startX = Stylus.px;
         startY = Stylus.py;
     }
 
-    if (getTouch(KeyPhase::release)) {
+    if (getTouch(release)) {
         int currentX = Stylus.px;
         int currentY = Stylus.py;
         
@@ -155,13 +155,13 @@ bool getSwipeGesture(Swipe gesture) {
         bool result = absX > absY;
 
 		switch (gesture) {
-		    case Swipe::SwipeLeft:
+		    case SwipeLeft:
 		        return (result && diffX > 0);
-		    case Swipe::SwipeRight:
+		    case SwipeRight:
 		        return (result && diffX < 0);
-		    case Swipe::SwipeUp:
+		    case SwipeUp:
 		        return (!result && diffY > 0);
-		    case Swipe::SwipeDown:
+		    case SwipeDown:
 		        return (!result && diffY < 0);
 		}
     }
@@ -180,13 +180,13 @@ bool overlap(int x1, int y1, int w1, int h1, int x2, int y2, int w2, int h2) {
 // get button input
 bool getKeys(KEYPAD_BITS key, KeyPhase phase) {
     switch (phase) {
-        case KeyPhase::release:
+        case release:
             return (keysUp() & key);
             break;
-        case KeyPhase::press:
+        case press:
             return (keysDown() & key);
             break;
-        case KeyPhase::held:
+        case held:
             return (keysHeld() & key);
             break;
     }
